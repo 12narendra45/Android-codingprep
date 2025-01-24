@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "307563406504",
+    "project_id": "codebooks-auth",
+    "storage_bucket": "codebooks-auth.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307563406504:android:aa4747d1ffe734b387ce9d",
+        "android_client_info": {
+          "package_name": "com.example.codebooks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDheRTREkicAcOmtP07nGDGVfvyBTWRXqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

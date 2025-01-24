@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/op1"
+        android:title="Book Suggestions" />
+    <item
+        android:id="@+id/op2"
+        android:title="Learn Other" />
+    <item
+        android:id="@+id/op3"
+        android:title="Take Test" />
+    <item
+        android:id="@+id/op4"
+        android:title="Result" />
+    <item
+        android:id="@+id/op5"
+        android:title="Practise Coding" />
+    <item
+        android:id="@+id/op7"
+        android:title="Interview Questions" />
+    <item
+        android:id="@+id/op8"
+        android:title="My Profile" />
+    <item
+        android:id="@+id/op9"
+        android:title="Logout" />
+</menu>
