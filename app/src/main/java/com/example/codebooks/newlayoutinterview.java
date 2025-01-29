@@ -2,13 +2,25 @@ package com.example.codebooks;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
+import java.util.HashMap;
+import java.util.Map;
 
 public class newlayoutinterview extends AppCompatActivity {
 
-    private TextView sectionContent;
+    // Mapping sections to their corresponding activities
+    private static final Map<String, Class<?>> sectionActivityMap = new HashMap<>();
+
+    static {
+        sectionActivityMap.put("os", aos.class);
+        sectionActivityMap.put("cn", acn.class);
+        sectionActivityMap.put("cod", acod.class);
+        sectionActivityMap.put("mysql", amysql.class);
+        sectionActivityMap.put("java", ajava.class);
+        sectionActivityMap.put("python", apython.class);
+        sectionActivityMap.put("cpp", acpp.class);
+        sectionActivityMap.put("dsa", adsa.class);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,29 +29,14 @@ public class newlayoutinterview extends AppCompatActivity {
         // Get the section name passed from the previous activity
         String section = getIntent().getStringExtra("section");
 
-        if (section != null) {
-            // Dynamically load the correct layout based on the section
-            if (section.equals("os")) {
-                setContentView(R.layout.aos);  // Load Operating System layout
-            } else if (section.equals("cn")) {
-                setContentView(R.layout.acn);  // Load Computer Networks layout
-            } else if (section.equals("cod")) {
-                setContentView(R.layout.acod);  // Load Computer Organisation layout
-            } else if (section.equals("mysql")) {
-                setContentView(R.layout.amysql);  // Load MySQL layout
-            } else if (section.equals("java")) {
-                setContentView(R.layout.ajava);  // Load Java layout
-            } else if (section.equals("python")) {
-                setContentView(R.layout.apython);  // Load Python layout
-            } else if (section.equals("cpp")) {
-                setContentView(R.layout.acpp);  // Load CPP layout
-            } else if (section.equals("dsa")) {
-                setContentView(R.layout.adsa);  // Load DSA layout
-            }
-
-            // Find the TextView in the newly loaded layout
-            sectionContent = findViewById(R.id.sectionContent);
-            sectionContent.setText("This is the " + section + " section.");
+        if (section != null && sectionActivityMap.containsKey(section)) {
+            // Start the corresponding activity
+            Intent intent = new Intent(this, sectionActivityMap.get(section));
+            startActivity(intent);
+            finish(); // Finish this activity to prevent stacking
+        } else {
+            // Handle the case where the section is invalid
+            finish(); // Close the activity if no valid section is found
         }
     }
 }

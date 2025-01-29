@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What is a computer network?",
+    "answer": "A network is a collection of computers connected to share resources and communicate."
+  },
+  {
+    "question": "What are the different types of networks?",
+    "answer": "Types include LAN, WAN, MAN, PAN, and VPN."
+  },
+  {
+    "question": "What is the OSI model?",
+    "answer": "The OSI model is a conceptual framework for understanding network communication."
+  },
+  {
+    "question": "How many layers are there in the OSI model?",
+    "answer": "The OSI model has seven layers."
+  },
+  {
+    "question": "What is the function of the Network layer in the OSI model?",
+    "answer": "The Network layer is responsible for routing and addressing packets."
+  },
+  {
+    "question": "What is a MAC address?",
+    "answer": "A MAC address is a unique identifier assigned to a network interface card."
+  },
+  {
+    "question": "What is an IP address?",
+    "answer": "An IP address is a unique identifier for a device on a network."
+  },
+  {
+    "question": "What is the difference between IPv4 and IPv6?",
+    "answer": "IPv4 uses 32-bit addressing, while IPv6 uses 128-bit addressing."
+  },
+  {
+    "question": "What is a subnet mask?",
+    "answer": "A subnet mask differentiates the network portion from the host portion of an IP address."
+  },
+  {
+    "question": "What is the difference between a switch and a router?",
+    "answer": "A switch connects devices in a network, while a router connects different networks."
+  },
+  {
+    "question": "What is a firewall in networking?",
+    "answer": "A firewall protects networks by filtering incoming and outgoing traffic."
+  },
+  {
+    "question": "What are the different types of firewalls?",
+    "answer": "Types include packet-filtering, stateful inspection, and proxy firewalls."
+  },
+  {
+    "question": "What is NAT (Network Address Translation)?",
+    "answer": "NAT translates private IP addresses to public IP addresses."
+  },
+  {
+    "question": "What is a VPN (Virtual Private Network)?",
+    "answer": "A VPN creates a secure connection over the internet."
+  },
+  {
+    "question": "What is the difference between TCP and UDP?",
+    "answer": "TCP is connection-oriented, while UDP is connectionless."
+  },
+  {
+    "question": "What is a socket in networking?",
+    "answer": "A socket is an endpoint for network communication."
+  },
+  {
+    "question": "What is a DNS (Domain Name System)?",
+    "answer": "DNS translates domain names into IP addresses."
+  },
+  {
+    "question": "What is DHCP (Dynamic Host Configuration Protocol)?",
+    "answer": "DHCP dynamically assigns IP addresses to devices on a network."
+  },
+  {
+    "question": "What is ARP (Address Resolution Protocol)?",
+    "answer": "ARP maps an IP address to a MAC address."
+  },
+  {
+    "question": "What is the difference between unicast, multicast, and broadcast?",
+    "answer": "Unicast sends data to one device, multicast to multiple devices, and broadcast to all."
+  },
+  {
+    "question": "What is a gateway in networking?",
+    "answer": "A gateway connects different networks and translates communication protocols."
+  },
+  {
+    "question": "What is an access point?",
+    "answer": "An access point allows wireless devices to connect to a network."
+  },
+  {
+    "question": "What is the purpose of a proxy server?",
+    "answer": "A proxy server acts as an intermediary for requests between clients and servers."
+  },
+  {
+    "question": "What is bandwidth in networking?",
+    "answer": "Bandwidth is the maximum data transfer rate of a network."
+  },
+  {
+    "question": "What is latency in networking?",
+    "answer": "Latency is the delay before data transfer begins."
+  },
+  {
+    "question": "What is a topology in networking?",
+    "answer": "Topology defines the arrangement of network devices."
+  },
+  {
+    "question": "What are the different types of network topologies?",
+    "answer": "Types include star, ring, bus, mesh, and hybrid topologies."
+  },
+  {
+    "question": "What is a VLAN (Virtual Local Area Network)?",
+    "answer": "A VLAN segments a network into smaller isolated groups."
+  },
+  {
+    "question": "What is the difference between LAN, MAN, and WAN?",
+    "answer": "LAN is for small areas, MAN for cities, and WAN for large areas."
+  },
+  {
+    "question": "What is a collision domain?",
+    "answer": "A collision domain is where packet collisions can occur."
+  },
+  {
+    "question": "What is a broadcast domain?",
+    "answer": "A broadcast domain is a network segment where broadcasts reach all devices."
+  },
+  {
+    "question": "What is a packet in networking?",
+    "answer": "A packet is a small unit of data transmitted over a network."
+  },
+  {
+    "question": "What is a frame in networking?",
+    "answer": "A frame is a data unit at the data link layer containing MAC addresses."
+  },
+  {
+    "question": "What is a TCP three-way handshake?",
+    "answer": "A TCP three-way handshake establishes a reliable connection."
+  },
+  {
+    "question": "What is a ping command used for?",
+    "answer": "The ping command checks network connectivity."
+  },
+  {
+    "question": "What is traceroute?",
+    "answer": "Traceroute shows the path packets take to reach a destination."
+  },
+  {
+    "question": "What is a subnet?",
+    "answer": "A subnet is a logical subdivision of a network."
+  },
+  {
+    "question": "What is a default gateway?",
+    "answer": "A default gateway is the router that connects a local network to external networks."
+  },
+  {
+    "question": "What is the purpose of ICMP (Internet Control Message Protocol)?",
+    "answer": "ICMP is used for error reporting and diagnostics."
+  },
+  {
+    "question": "What is load balancing in networking?",
+    "answer": "Load balancing distributes network traffic efficiently."
+  },
+  {
+    "question": "What is a multicast address?",
+    "answer": "A multicast address is used for one-to-many communication."
+  },
+  {
+    "question": "What is a private IP address?",
+    "answer": "A private IP address is used within a local network."
+  },
+  {
+    "question": "What is a public IP address?",
+    "answer": "A public IP address is assigned for use on the internet."
+  },
+  {
+    "question": "What is an Autonomous System (AS) in networking?",
+    "answer": "An Autonomous System is a collection of IP networks under a single administration."
+  },
+  {
+    "question": "What is Quality of Service (QoS) in networking?",
+    "answer": "QoS prioritizes network traffic for better performance."
+  },
+  {
+    "question": "What is the difference between static and dynamic routing?",
+    "answer": "Static routing is manually configured, while dynamic routing updates automatically."
+  },
+  {
+    "question": "What is a loopback address?",
+    "answer": "A loopback address (127.0.0.1) is used to test network interfaces."
+  },
+  {
+    "question": "What is an MPLS (Multiprotocol Label Switching)?",
+    "answer": "MPLS improves data transmission speed and efficiency."
+  },
+  {
+    "question": "What is BGP (Border Gateway Protocol)?",
+    "answer": "BGP is a routing protocol used to exchange information between different networks."
+  },
+  {
+    "question": "What is the difference between FTP and SFTP?",
+    "answer": "FTP transfers files, while SFTP is a secure version using encryption."
+  }
+]

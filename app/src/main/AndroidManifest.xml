@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Codebooks"
         tools:targetApi="31">
         <activity
+            android:name=".practise"
+            android:exported="false" />
+        <activity
             android:name=".booksuggestion"
             android:exported="false" />
         <activity android:name=".newlayoutinterview" />
@@ -31,6 +34,7 @@
         <activity
             android:name=".taketest"
             android:exported="false" />
+        <activity android:name=".acn"/>
         <activity
             android:name=".dsaq"
             android:exported="false" />
