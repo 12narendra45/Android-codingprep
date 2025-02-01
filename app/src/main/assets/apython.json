@@ -1,0 +1,174 @@
+[
+  {
+    "question": "What is Python?",
+    "answer": "Python is a high-level, interpreted programming language known for its simplicity and readability."
+  },
+  {
+    "question": "What are the key features of Python?",
+    "answer": "Python is easy to learn, dynamically typed, interpreted, object-oriented, and has a large standard library."
+  },
+  {
+    "question": "What is PEP 8?",
+    "answer": "PEP 8 is a style guide that provides coding conventions for writing clean and readable Python code."
+  },
+  {
+    "question": "What is the difference between Python 2 and Python 3?",
+    "answer": "Python 3 introduced improvements like better Unicode support and print() as a function, while Python 2 is now deprecated."
+  },
+  {
+    "question": "What are Python’s built-in data types?",
+    "answer": "Python has built-in data types like int, float, bool, str, list, tuple, set, and dict."
+  },
+  {
+    "question": "What is the difference between a list and a tuple?",
+    "answer": "Lists are mutable, whereas tuples are immutable."
+  },
+  {
+    "question": "What are Python’s mutable and immutable types?",
+    "answer": "Mutable types include lists, sets, and dictionaries, while immutable types include tuples, strings, and integers."
+  },
+  {
+    "question": "What is a dictionary in Python?",
+    "answer": "A dictionary is a collection of key-value pairs, where keys must be unique and immutable."
+  },
+  {
+    "question": "What is list comprehension in Python?",
+    "answer": "List comprehension is a concise way to create lists using a single line of code."
+  },
+  {
+    "question": "What are Python’s looping constructs?",
+    "answer": "Python supports 'for' and 'while' loops for iteration."
+  },
+  {
+    "question": "What is the difference between 'is' and '==' in Python?",
+    "answer": "'is' checks for object identity, while '==' checks for value equality."
+  },
+  {
+    "question": "What is slicing in Python?",
+    "answer": "Slicing extracts a portion of a sequence using the syntax list[start:stop:step]."
+  },
+  {
+    "question": "What are Python’s membership operators?",
+    "answer": "'in' checks if a value exists in a sequence, and 'not in' checks if it does not."
+  },
+  {
+    "question": "What is a lambda function in Python?",
+    "answer": "A lambda function is an anonymous function defined using the 'lambda' keyword."
+  },
+  {
+    "question": "What is the difference between deep copy and shallow copy?",
+    "answer": "A shallow copy copies references, whereas a deep copy creates a completely new object."
+  },
+  {
+    "question": "What is a Python module?",
+    "answer": "A module is a Python file that contains definitions and statements, which can be imported into other programs."
+  },
+  {
+    "question": "What is the difference between a module and a package?",
+    "answer": "A module is a single file, whereas a package is a collection of modules in a directory with an '__init__.py' file."
+  },
+  {
+    "question": "What is the difference between Python’s 'import' and 'from-import'?",
+    "answer": "'import' imports the whole module, while 'from-import' imports specific attributes or functions."
+  },
+  {
+    "question": "What is an iterator in Python?",
+    "answer": "An iterator is an object that implements the '__iter__()' and '__next__()' methods."
+  },
+  {
+    "question": "What is a generator in Python?",
+    "answer": "A generator is a function that uses 'yield' instead of 'return' to produce a sequence of values lazily."
+  },
+  {
+    "question": "What is the difference between a generator and an iterator?",
+    "answer": "Generators are iterators but are created using functions with 'yield' instead of classes."
+  },
+  {
+    "question": "What are Python’s built-in functions?",
+    "answer": "Python provides built-in functions like len(), type(), print(), input(), sorted(), and range()."
+  },
+  {
+    "question": "What is the difference between args and kwargs?",
+    "answer": "'*args' passes a variable number of positional arguments, while '**kwargs' passes keyword arguments."
+  },
+  {
+    "question": "What is Python’s Global Interpreter Lock (GIL)?",
+    "answer": "GIL is a mutex that allows only one thread to execute Python bytecode at a time, limiting true parallelism."
+  },
+  {
+    "question": "What is multithreading in Python?",
+    "answer": "Multithreading allows concurrent execution of multiple threads within the same process, but is limited by the GIL."
+  },
+  {
+    "question": "What is multiprocessing in Python?",
+    "answer": "Multiprocessing allows parallel execution using multiple processes, bypassing the GIL."
+  },
+  {
+    "question": "What is a Python decorator?",
+    "answer": "A decorator is a function that modifies another function's behavior without changing its code."
+  },
+  {
+    "question": "What is the purpose of '__init__.py'?",
+    "answer": "The '__init__.py' file marks a directory as a Python package."
+  },
+  {
+    "question": "What is monkey patching in Python?",
+    "answer": "Monkey patching is dynamically modifying a class or module at runtime."
+  },
+  {
+    "question": "What is exception handling in Python?",
+    "answer": "Exception handling uses 'try', 'except', 'finally', and 'raise' to handle runtime errors."
+  },
+  {
+    "question": "What is the difference between 'try-except' and 'try-finally'?",
+    "answer": "'try-except' handles exceptions, while 'try-finally' ensures final execution of a block."
+  },
+  {
+    "question": "What is Python’s 'with' statement?",
+    "answer": "The 'with' statement simplifies resource management, ensuring proper cleanup of files or connections."
+  },
+  {
+    "question": "What is the difference between 'del' and 'remove'?",
+    "answer": "'del' deletes an object, while 'remove()' deletes a specific value from a list."
+  },
+  {
+    "question": "What is duck typing in Python?",
+    "answer": "Duck typing is a concept where the type of an object is determined by its behavior rather than its class."
+  },
+  {
+    "question": "What are Python’s memory management features?",
+    "answer": "Python uses automatic garbage collection, reference counting, and dynamic memory allocation."
+  },
+  {
+    "question": "What is Python’s 'gc' module?",
+    "answer": "The 'gc' module provides an interface for garbage collection and memory management."
+  },
+  {
+    "question": "What is Flask?",
+    "answer": "Flask is a lightweight web framework for building web applications in Python."
+  },
+  {
+    "question": "What is Django?",
+    "answer": "Django is a high-level Python web framework that follows the MVC (Model-View-Controller) pattern."
+  },
+  {
+    "question": "What is the difference between Flask and Django?",
+    "answer": "Flask is lightweight and flexible, while Django is full-featured and follows a convention-over-configuration approach."
+  },
+  {
+    "question": "What is unit testing in Python?",
+    "answer": "Unit testing is testing individual components of code using Python’s 'unittest' module."
+  },
+  {
+    "question": "What is the difference between @staticmethod and @classmethod?",
+    "answer": "@staticmethod does not access the class, while @classmethod takes the class as its first parameter."
+  },
+  {
+    "question": "What is Python’s 'asyncio' module?",
+    "answer": "The 'asyncio' module enables asynchronous programming for concurrent network and I/O-bound tasks."
+  },
+  {
+    "question": "What is the difference between JSON and Pickle in Python?",
+    "answer": "JSON is a text-based serialization format, while Pickle is a binary format specific to Python."
+  }
+]

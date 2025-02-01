@@ -1,0 +1,178 @@
+[
+  {
+    "question": "What is a data structure?",
+    "answer": "A data structure is a way of organizing and storing data for efficient access and modification."
+  },
+  {
+    "question": "What are the types of data structures?",
+    "answer": "Types include linear structures (arrays, linked lists, stacks, queues) and non-linear structures (trees, graphs)."
+  },
+  {
+    "question": "What is an array?",
+    "answer": "An array is a collection of elements stored at contiguous memory locations."
+  },
+  {
+    "question": "What is a linked list?",
+    "answer": "A linked list is a linear data structure where each element (node) contains a data part and a pointer to the next node."
+  },
+  {
+    "question": "What are the types of linked lists?",
+    "answer": "Types include singly linked list, doubly linked list, and circular linked list."
+  },
+  {
+    "question": "What is a stack?",
+    "answer": "A stack is a linear data structure that follows the LIFO (Last In, First Out) principle."
+  },
+  {
+    "question": "What are the applications of stacks?",
+    "answer": "Stacks are used in recursion, expression evaluation, backtracking, and undo operations in editors."
+  },
+  {
+    "question": "What is a queue?",
+    "answer": "A queue is a linear data structure that follows the FIFO (First In, First Out) principle."
+  },
+  {
+    "question": "What are the types of queues?",
+    "answer": "Types include simple queue, circular queue, priority queue, and deque (double-ended queue)."
+  },
+  {
+    "question": "What is a priority queue?",
+    "answer": "A priority queue is a type of queue where elements are dequeued based on priority rather than arrival order."
+  },
+  {
+    "question": "What is a dequeue?",
+    "answer": "A dequeue (double-ended queue) is a queue where elements can be inserted or deleted from both ends."
+  },
+  {
+    "question": "What is a tree?",
+    "answer": "A tree is a hierarchical data structure with nodes connected by edges, having a root node and child nodes."
+  },
+  {
+    "question": "What are the types of trees?",
+    "answer": "Types include binary tree, binary search tree (BST), AVL tree, B-tree, and trie."
+  },
+  {
+    "question": "What is a binary tree?",
+    "answer": "A binary tree is a tree data structure where each node has at most two children."
+  },
+  {
+    "question": "What is a binary search tree (BST)?",
+    "answer": "A BST is a binary tree where the left child contains smaller values, and the right child contains larger values."
+  },
+  {
+    "question": "What is tree traversal?",
+    "answer": "Tree traversal is the process of visiting all nodes in a tree using methods like inorder, preorder, and postorder."
+  },
+  {
+    "question": "What is a graph?",
+    "answer": "A graph is a data structure consisting of nodes (vertices) connected by edges."
+  },
+  {
+    "question": "What are the types of graphs?",
+    "answer": "Types include directed and undirected graphs, weighted and unweighted graphs, cyclic and acyclic graphs."
+  },
+  {
+    "question": "What are BFS and DFS in graphs?",
+    "answer": "BFS (Breadth-First Search) explores level by level, while DFS (Depth-First Search) explores as far as possible along each branch."
+  },
+  {
+    "question": "What is a hash table?",
+    "answer": "A hash table is a data structure that maps keys to values using a hash function for fast retrieval."
+  },
+  {
+    "question": "What is a heap?",
+    "answer": "A heap is a complete binary tree where the parent node is either greater (max heap) or smaller (min heap) than its children."
+  },
+  {
+    "question": "What is sorting in data structures?",
+    "answer": "Sorting is the process of arranging elements in a specific order, such as ascending or descending."
+  },
+  {
+    "question": "What are the common sorting algorithms?",
+    "answer": "Common sorting algorithms include bubble sort, selection sort, insertion sort, merge sort, quick sort, and heap sort."
+  },
+  {
+    "question": "What is the time complexity of quicksort?",
+    "answer": "The average and best-case time complexity of quicksort is O(n log n), while the worst case is O(n²)."
+  },
+  {
+    "question": "What is the time complexity of merge sort?",
+    "answer": "The time complexity of merge sort is O(n log n) in all cases."
+  },
+  {
+    "question": "What is dynamic programming?",
+    "answer": "Dynamic programming is an optimization technique that solves complex problems by breaking them into smaller overlapping subproblems."
+  },
+  {
+    "question": "What is memoization?",
+    "answer": "Memoization is a technique used in dynamic programming to store previously computed results to avoid redundant calculations."
+  },
+  {
+    "question": "What is the difference between greedy and dynamic programming?",
+    "answer": "Greedy algorithms make locally optimal choices, while dynamic programming considers all possible solutions and optimizes globally."
+  },
+  {
+    "question": "What is recursion?",
+    "answer": "Recursion is a programming technique where a function calls itself to solve a problem."
+  },
+  {
+    "question": "What is tail recursion?",
+    "answer": "Tail recursion is a recursion where the recursive call is the last operation in the function, optimizing stack usage."
+  },
+  {
+    "question": "What is a backtracking algorithm?",
+    "answer": "Backtracking is a recursive algorithm for solving problems by trying all possible solutions and undoing (backtracking) incorrect choices."
+  },
+  {
+    "question": "What is an example of backtracking?",
+    "answer": "Examples include solving the N-Queens problem, Sudoku solver, and maze-solving algorithms."
+  },
+  {
+    "question": "What is the difference between an array and a linked list?",
+    "answer": "Arrays have fixed sizes and allow fast access, while linked lists have dynamic sizes and allow efficient insertions and deletions."
+  },
+  {
+    "question": "What is the difference between a stack and a queue?",
+    "answer": "A stack follows LIFO (Last In, First Out), while a queue follows FIFO (First In, First Out)."
+  },
+  {
+    "question": "What is Floyd’s cycle detection algorithm?",
+    "answer": "Floyd’s algorithm detects cycles in a linked list using two pointers moving at different speeds."
+  },
+  {
+    "question": "What is the longest common subsequence (LCS)?",
+    "answer": "LCS is the longest sequence that appears in the same order in two given sequences without changing their order."
+  },
+  {
+    "question": "What is Dijkstra’s algorithm?",
+    "answer": "Dijkstra’s algorithm finds the shortest path from a source node to all other nodes in a weighted graph."
+  },
+  {
+    "question": "What is Kruskal’s algorithm?",
+    "answer": "Kruskal’s algorithm finds the minimum spanning tree of a graph using a greedy approach."
+  },
+  {
+    "question": "What is Prim’s algorithm?",
+    "answer": "Prim’s algorithm finds the minimum spanning tree by expanding from a starting node."
+  },
+  {
+    "question": "What is Bellman-Ford algorithm?",
+    "answer": "Bellman-Ford finds the shortest path from a source node, handling negative weight edges."
+  },
+  {
+    "question": "What is topological sorting?",
+    "answer": "Topological sorting orders nodes in a directed acyclic graph (DAG) such that for every directed edge u → v, u appears before v."
+  },
+  {
+    "question": "What is the difference between BFS and DFS?",
+    "answer": "BFS explores level by level and uses a queue, while DFS explores depth-first and uses recursion or a stack."
+  },
+  {
+    "question": "What is an adjacency matrix?",
+    "answer": "An adjacency matrix is a 2D array representation of a graph where cells indicate edge existence."
+  },
+  {
+    "question": "What is an adjacency list?",
+    "answer": "An adjacency list is a collection of lists where each vertex has a list of adjacent vertices."
+  }
+]

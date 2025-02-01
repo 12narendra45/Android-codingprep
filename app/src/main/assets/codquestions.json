@@ -1,0 +1,182 @@
+[
+  {
+    "question": "What is Computer Organization?",
+    "answer": "Computer Organization refers to the operational structure and behavior of a computer system."
+  },
+  {
+    "question": "What is the difference between Computer Organization and Computer Architecture?",
+    "answer": "Computer Organization focuses on hardware implementation, while Computer Architecture focuses on system design and functionality."
+  },
+  {
+    "question": "What are the basic components of a computer system?",
+    "answer": "The basic components include the CPU, memory, input/output devices, and storage."
+  },
+  {
+    "question": "What is the function of the ALU?",
+    "answer": "The Arithmetic Logic Unit (ALU) performs arithmetic and logical operations in the CPU."
+  },
+  {
+    "question": "What is the purpose of the control unit in a CPU?",
+    "answer": "The control unit directs the operation of the processor by interpreting and executing instructions."
+  },
+  {
+    "question": "What is a register in a CPU?",
+    "answer": "A register is a small, fast memory unit inside the CPU used to store temporary data and instructions."
+  },
+  {
+    "question": "What are general-purpose and special-purpose registers?",
+    "answer": "General-purpose registers store temporary data, while special-purpose registers control specific CPU functions."
+  },
+  {
+    "question": "What is the function of a program counter (PC)?",
+    "answer": "The program counter holds the address of the next instruction to be executed."
+  },
+  {
+    "question": "What is the purpose of an instruction register (IR)?",
+    "answer": "The instruction register stores the current instruction being executed."
+  },
+  {
+    "question": "What are the different types of computer buses?",
+    "answer": "Types include data bus, address bus, and control bus."
+  },
+  {
+    "question": "What is a data bus?",
+    "answer": "A data bus transfers data between the CPU, memory, and other components."
+  },
+  {
+    "question": "What is an address bus?",
+    "answer": "An address bus carries the addresses of memory locations for data retrieval."
+  },
+  {
+    "question": "What is a control bus?",
+    "answer": "A control bus carries control signals to coordinate CPU operations."
+  },
+  {
+    "question": "What is the Von Neumann architecture?",
+    "answer": "It is a computer architecture where data and instructions share the same memory."
+  },
+  {
+    "question": "What is the Harvard architecture?",
+    "answer": "It is a computer architecture where data and instructions are stored in separate memory units."
+  },
+  {
+    "question": "What is an opcode?",
+    "answer": "An opcode is the part of an instruction that specifies the operation to be performed."
+  },
+  {
+    "question": "What is an operand?",
+    "answer": "An operand is the data on which an instruction operates."
+  },
+  {
+    "question": "What are the different types of addressing modes?",
+    "answer": "Addressing modes include immediate, direct, indirect, register, indexed, and base-relative."
+  },
+  {
+    "question": "What is pipelining in computer architecture?",
+    "answer": "Pipelining is a technique where multiple instruction stages are executed simultaneously to increase performance."
+  },
+  {
+    "question": "What is the difference between RISC and CISC architectures?",
+    "answer": "RISC (Reduced Instruction Set Computing) uses simple instructions, while CISC (Complex Instruction Set Computing) uses complex instructions."
+  },
+  {
+    "question": "What is cache memory?",
+    "answer": "Cache memory is a small, high-speed memory that stores frequently accessed data to improve performance."
+  },
+  {
+    "question": "What are the levels of cache memory?",
+    "answer": "Cache memory levels include L1 (fastest), L2, and L3 (largest but slowest)."
+  },
+  {
+    "question": "What is virtual memory?",
+    "answer": "Virtual memory extends RAM using a portion of the hard disk to store data temporarily."
+  },
+  {
+    "question": "What is the difference between RAM and ROM?",
+    "answer": "RAM is volatile and used for temporary storage, while ROM is non-volatile and stores firmware."
+  },
+  {
+    "question": "What is the purpose of a memory hierarchy?",
+    "answer": "Memory hierarchy optimizes speed and storage cost by arranging memory types in different levels."
+  },
+  {
+    "question": "What is a DMA controller?",
+    "answer": "A Direct Memory Access (DMA) controller allows peripherals to access memory without CPU intervention."
+  },
+  {
+    "question": "What is an interrupt in a computer system?",
+    "answer": "An interrupt is a signal that temporarily halts CPU execution to handle important tasks."
+  },
+  {
+    "question": "What are the types of interrupts?",
+    "answer": "Interrupts can be hardware, software, maskable, or non-maskable."
+  },
+  {
+    "question": "What is an instruction cycle?",
+    "answer": "An instruction cycle consists of fetch, decode, execute, and store stages."
+  },
+  {
+    "question": "What is the role of the system clock in a computer?",
+    "answer": "The system clock synchronizes operations within the CPU and other components."
+  },
+  {
+    "question": "What is instruction-level parallelism?",
+    "answer": "Instruction-level parallelism allows multiple instructions to be processed simultaneously."
+  },
+  {
+    "question": "What is a superscalar processor?",
+    "answer": "A superscalar processor can execute multiple instructions per clock cycle."
+  },
+  {
+    "question": "What is a multiprocessor system?",
+    "answer": "A multiprocessor system has two or more processors working together to enhance performance."
+  },
+  {
+    "question": "What is the difference between SIMD and MIMD architectures?",
+    "answer": "SIMD processes multiple data streams with a single instruction, while MIMD handles multiple instructions and data streams."
+  },
+  {
+    "question": "What is the purpose of a control unit?",
+    "answer": "The control unit manages and coordinates CPU operations based on instructions."
+  },
+  {
+    "question": "What is microprogramming?",
+    "answer": "Microprogramming is a technique used to implement control unit operations using microinstructions."
+  },
+  {
+    "question": "What is a microprocessor?",
+    "answer": "A microprocessor is an integrated circuit that contains the functions of a CPU."
+  },
+  {
+    "question": "What is an embedded system?",
+    "answer": "An embedded system is a specialized computing system designed for a specific function within a larger device."
+  },
+  {
+    "question": "What is an instruction set?",
+    "answer": "An instruction set is a collection of machine instructions that a CPU can execute."
+  },
+  {
+    "question": "What is bus arbitration?",
+    "answer": "Bus arbitration is the process of managing multiple requests for control of a bus."
+  },
+  {
+    "question": "What is hazard in pipelining?",
+    "answer": "A hazard is a situation where an instruction depends on a previous instruction, causing delays."
+  },
+  {
+    "question": "What is branch prediction?",
+    "answer": "Branch prediction is a technique used to guess the outcome of a branch instruction to reduce execution delay."
+  },
+  {
+    "question": "What is a system bus?",
+    "answer": "A system bus connects the CPU, memory, and peripherals for data transfer."
+  },
+  {
+    "question": "What is the difference between hardwired and microprogrammed control units?",
+    "answer": "Hardwired control uses fixed circuits, while microprogrammed control uses a set of instructions to manage execution."
+  },
+  {
+    "question": "What is a control word?",
+    "answer": "A control word is a set of binary signals used to control CPU operations."
+  }
+]

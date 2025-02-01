@@ -1,0 +1,186 @@
+[
+  {
+    "question": "What is an operating system?",
+    "answer": "An operating system (OS) is system software that manages hardware and software resources, providing a user interface and executing programs."
+  },
+  {
+    "question": "What are the types of operating systems?",
+    "answer": "Types include Batch OS, Time-Sharing OS, Distributed OS, Network OS, and Real-Time OS."
+  },
+  {
+    "question": "What are the main functions of an operating system?",
+    "answer": "Functions include process management, memory management, file system management, device management, and security."
+  },
+  {
+    "question": "What is a kernel in an operating system?",
+    "answer": "A kernel is the core component of an OS that manages system resources and facilitates communication between hardware and software."
+  },
+  {
+    "question": "What is a monolithic kernel?",
+    "answer": "A monolithic kernel is a large kernel where all OS services run in a single address space for faster execution."
+  },
+  {
+    "question": "What is a microkernel?",
+    "answer": "A microkernel is a minimalistic kernel that provides basic services while additional functionalities run as user-space processes."
+  },
+  {
+    "question": "What is the difference between a process and a thread?",
+    "answer": "A process is an independent program execution instance, while a thread is a lightweight process within a process."
+  },
+  {
+    "question": "What are the different states of a process?",
+    "answer": "The process states are New, Ready, Running, Waiting, and Terminated."
+  },
+  {
+    "question": "What is process scheduling?",
+    "answer": "Process scheduling is the selection of processes to execute by the CPU scheduler based on scheduling algorithms."
+  },
+  {
+    "question": "What are the different types of scheduling algorithms?",
+    "answer": "Types include First Come First Serve (FCFS), Shortest Job Next (SJN), Round Robin (RR), Priority Scheduling, and Multilevel Queue Scheduling."
+  },
+  {
+    "question": "What is a context switch?",
+    "answer": "A context switch is the process of saving and restoring the CPU state when switching from one process to another."
+  },
+  {
+    "question": "What is the difference between preemptive and non-preemptive scheduling?",
+    "answer": "Preemptive scheduling allows process interruption, while non-preemptive scheduling completes execution before switching."
+  },
+  {
+    "question": "What is a deadlock?",
+    "answer": "A deadlock occurs when multiple processes are waiting for resources held by each other, preventing further execution."
+  },
+  {
+    "question": "What are the necessary conditions for a deadlock?",
+    "answer": "The four conditions are Mutual Exclusion, Hold and Wait, No Preemption, and Circular Wait."
+  },
+  {
+    "question": "How can deadlocks be prevented?",
+    "answer": "Deadlocks can be prevented by eliminating one of the four necessary conditions, such as using resource ordering or allowing preemption."
+  },
+  {
+    "question": "What is memory management?",
+    "answer": "Memory management controls the allocation and deallocation of memory space to processes."
+  },
+  {
+    "question": "What is virtual memory?",
+    "answer": "Virtual memory is a memory management technique that extends RAM using disk space."
+  },
+  {
+    "question": "What is paging?",
+    "answer": "Paging divides memory into fixed-size pages to reduce fragmentation and improve memory management efficiency."
+  },
+  {
+    "question": "What is segmentation?",
+    "answer": "Segmentation divides memory into variable-sized segments based on logical program divisions."
+  },
+  {
+    "question": "What is the difference between paging and segmentation?",
+    "answer": "Paging divides memory into fixed-size pages, while segmentation divides memory based on logical structures."
+  },
+  {
+    "question": "What is demand paging?",
+    "answer": "Demand paging loads pages into memory only when required, reducing memory usage."
+  },
+  {
+    "question": "What is a page fault?",
+    "answer": "A page fault occurs when a required page is not in memory and must be loaded from disk."
+  },
+  {
+    "question": "What are page replacement algorithms?",
+    "answer": "Algorithms include FIFO (First-In-First-Out), LRU (Least Recently Used), and Optimal Page Replacement."
+  },
+  {
+    "question": "What is thrashing in an operating system?",
+    "answer": "Thrashing occurs when excessive paging reduces CPU performance, causing continuous disk access."
+  },
+  {
+    "question": "What is fragmentation?",
+    "answer": "Fragmentation occurs when memory space is wasted due to inefficient allocation, categorized as internal and external fragmentation."
+  },
+  {
+    "question": "What is a file system?",
+    "answer": "A file system manages the storage, organization, retrieval, and access of data on a disk."
+  },
+  {
+    "question": "What are the different types of file systems?",
+    "answer": "Common types include FAT32, NTFS, ext3, ext4, and HFS."
+  },
+  {
+    "question": "What is disk scheduling?",
+    "answer": "Disk scheduling optimizes the order of disk read/write requests for efficiency."
+  },
+  {
+    "question": "What are the types of disk scheduling algorithms?",
+    "answer": "Algorithms include FCFS, SSTF, SCAN, C-SCAN, and LOOK."
+  },
+  {
+    "question": "What is an I/O system in an OS?",
+    "answer": "An I/O system manages communication between hardware devices and the CPU."
+  },
+  {
+    "question": "What are device drivers?",
+    "answer": "Device drivers are software components that allow the OS to communicate with hardware devices."
+  },
+  {
+    "question": "What is an interrupt in an OS?",
+    "answer": "An interrupt is a signal that temporarily halts execution for urgent processing."
+  },
+  {
+    "question": "What is multiprocessing?",
+    "answer": "Multiprocessing is the simultaneous execution of multiple processes using multiple CPUs."
+  },
+  {
+    "question": "What is multithreading?",
+    "answer": "Multithreading is the execution of multiple threads within a process to improve efficiency."
+  },
+  {
+    "question": "What is the difference between multitasking and multithreading?",
+    "answer": "Multitasking executes multiple processes simultaneously, while multithreading executes multiple threads within a process."
+  },
+  {
+    "question": "What is a real-time operating system (RTOS)?",
+    "answer": "RTOS is designed for real-time applications that require immediate response, such as embedded systems."
+  },
+  {
+    "question": "What is a distributed operating system?",
+    "answer": "A distributed OS manages a network of computers, making them appear as a single system."
+  },
+  {
+    "question": "What is a shell in an OS?",
+    "answer": "A shell is a command-line interface that interacts with the kernel to execute commands."
+  },
+  {
+    "question": "What is system call in an OS?",
+    "answer": "A system call is an interface for user applications to request services from the OS kernel."
+  },
+  {
+    "question": "What is a daemon process?",
+    "answer": "A daemon process runs in the background to handle system tasks like logging and scheduling."
+  },
+  {
+    "question": "What is swap space?",
+    "answer": "Swap space is disk storage used as virtual memory when physical RAM is full."
+  },
+  {
+    "question": "What is process synchronization?",
+    "answer": "Process synchronization ensures orderly execution of processes to prevent conflicts in shared resources."
+  },
+  {
+    "question": "What is mutual exclusion?",
+    "answer": "Mutual exclusion ensures that only one process accesses a critical section at a time."
+  },
+  {
+    "question": "What are semaphores?",
+    "answer": "Semaphores are synchronization mechanisms that control access to shared resources."
+  },
+  {
+    "question": "What is a race condition?",
+    "answer": "A race condition occurs when multiple processes access shared data simultaneously, leading to unpredictable results."
+  },
+  {
+    "question": "What is the banker’s algorithm?",
+    "answer": "The banker's algorithm is a deadlock avoidance strategy that ensures resource allocation without circular wait conditions."
+  }
+]

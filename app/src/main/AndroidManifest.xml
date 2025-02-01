@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Codebooks"
         tools:targetApi="31">
         <activity
+            android:name=".testpage"
+            android:exported="false" />
+        <activity
+            android:name=".atest"
+            android:exported="false" />
+        <activity
             android:name=".practise"
             android:exported="false" />
         <activity
@@ -34,7 +40,14 @@
         <activity
             android:name=".taketest"
             android:exported="false" />
-        <activity android:name=".acn"/>
+        <activity android:name=".acn" />
+        <activity android:name=".acod" />
+        <activity android:name=".aos" />
+        <activity android:name=".amysql" />
+        <activity android:name=".apython" />
+        <activity android:name=".adsa" />
+        <activity android:name=".ajava" />
+        <activity android:name=".acpp" />
         <activity
             android:name=".dsaq"
             android:exported="false" />

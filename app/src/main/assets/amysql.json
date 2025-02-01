@@ -1,0 +1,182 @@
+[
+  {
+    "question": "What is MySQL?",
+    "answer": "MySQL is an open-source relational database management system (RDBMS) used to store, retrieve, and manage structured data."
+  },
+  {
+    "question": "What are the different storage engines in MySQL?",
+    "answer": "Common storage engines include InnoDB, MyISAM, MEMORY, CSV, ARCHIVE, and BLACKHOLE."
+  },
+  {
+    "question": "What is the difference between MyISAM and InnoDB?",
+    "answer": "InnoDB supports transactions, foreign keys, and row-level locking, while MyISAM is faster but lacks these features."
+  },
+  {
+    "question": "What is the default storage engine in MySQL?",
+    "answer": "The default storage engine in MySQL is InnoDB."
+  },
+  {
+    "question": "What is the difference between SQL and MySQL?",
+    "answer": "SQL is a language for querying databases, while MySQL is a database management system that uses SQL."
+  },
+  {
+    "question": "What is ACID in MySQL?",
+    "answer": "ACID stands for Atomicity, Consistency, Isolation, and Durability, ensuring reliable database transactions."
+  },
+  {
+    "question": "What is a primary key?",
+    "answer": "A primary key is a unique identifier for a record in a table and cannot contain NULL values."
+  },
+  {
+    "question": "What is a foreign key?",
+    "answer": "A foreign key is a field that links to the primary key of another table to enforce referential integrity."
+  },
+  {
+    "question": "What is an index in MySQL?",
+    "answer": "An index is a database structure that improves the speed of data retrieval operations."
+  },
+  {
+    "question": "What are the types of indexes in MySQL?",
+    "answer": "Types include primary index, unique index, full-text index, and composite index."
+  },
+  {
+    "question": "What is the difference between UNIQUE and PRIMARY KEY constraints?",
+    "answer": "Both ensure uniqueness, but a table can have multiple UNIQUE constraints, while it can have only one PRIMARY KEY."
+  },
+  {
+    "question": "What is a composite key?",
+    "answer": "A composite key is a primary key consisting of two or more columns."
+  },
+  {
+    "question": "What is the difference between DELETE and TRUNCATE?",
+    "answer": "DELETE removes specific rows with conditions, while TRUNCATE removes all rows and resets the identity column."
+  },
+  {
+    "question": "What is the difference between DROP and TRUNCATE?",
+    "answer": "DROP removes the table structure and data, while TRUNCATE only removes the data but keeps the structure."
+  },
+  {
+    "question": "What is the difference between INNER JOIN and OUTER JOIN?",
+    "answer": "INNER JOIN returns matching records from both tables, while OUTER JOIN includes unmatched records as well."
+  },
+  {
+    "question": "What are the types of JOINS in MySQL?",
+    "answer": "Types include INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN."
+  },
+  {
+    "question": "What is a subquery?",
+    "answer": "A subquery is a query nested inside another query to retrieve data based on conditions."
+  },
+  {
+    "question": "What are the types of subqueries in MySQL?",
+    "answer": "Types include single-row, multi-row, and correlated subqueries."
+  },
+  {
+    "question": "What is a stored procedure?",
+    "answer": "A stored procedure is a precompiled collection of SQL statements stored in the database for reuse."
+  },
+  {
+    "question": "What is a trigger in MySQL?",
+    "answer": "A trigger is an automatic action executed when a specified event occurs on a table."
+  },
+  {
+    "question": "What are the types of triggers in MySQL?",
+    "answer": "Types include BEFORE INSERT, AFTER INSERT, BEFORE UPDATE, AFTER UPDATE, BEFORE DELETE, and AFTER DELETE."
+  },
+  {
+    "question": "What is a view in MySQL?",
+    "answer": "A view is a virtual table based on the result of a SELECT query."
+  },
+  {
+    "question": "What is the difference between a view and a table?",
+    "answer": "A table stores data physically, while a view is a virtual representation of a query result."
+  },
+  {
+    "question": "What is a transaction in MySQL?",
+    "answer": "A transaction is a sequence of SQL statements executed as a single unit of work."
+  },
+  {
+    "question": "What are the transaction control commands in MySQL?",
+    "answer": "Commands include COMMIT, ROLLBACK, and SAVEPOINT."
+  },
+  {
+    "question": "What is a savepoint?",
+    "answer": "A savepoint is a point within a transaction to which you can roll back without affecting the entire transaction."
+  },
+  {
+    "question": "What is the difference between CHAR and VARCHAR?",
+    "answer": "CHAR is a fixed-length string, while VARCHAR is a variable-length string."
+  },
+  {
+    "question": "What is normalization?",
+    "answer": "Normalization is the process of organizing a database to reduce redundancy and improve integrity."
+  },
+  {
+    "question": "What are the normal forms in database normalization?",
+    "answer": "Common normal forms include 1NF, 2NF, 3NF, BCNF, and 4NF."
+  },
+  {
+    "question": "What is denormalization?",
+    "answer": "Denormalization is the process of combining tables to improve query performance at the cost of redundancy."
+  },
+  {
+    "question": "What is MySQL replication?",
+    "answer": "MySQL replication is a process of copying data from one database server to another for backup or load balancing."
+  },
+  {
+    "question": "What are the types of MySQL replication?",
+    "answer": "Types include master-slave replication, master-master replication, and circular replication."
+  },
+  {
+    "question": "What is a temporary table?",
+    "answer": "A temporary table is a table that exists only during the session in which it was created."
+  },
+  {
+    "question": "What is the difference between HAVING and WHERE?",
+    "answer": "WHERE filters rows before aggregation, while HAVING filters after aggregation."
+  },
+  {
+    "question": "What is an AUTO_INCREMENT column?",
+    "answer": "AUTO_INCREMENT is a column attribute that automatically generates unique values."
+  },
+  {
+    "question": "What is MySQL Workbench?",
+    "answer": "MySQL Workbench is a GUI tool for designing, developing, and managing MySQL databases."
+  },
+  {
+    "question": "What is a deadlock in MySQL?",
+    "answer": "A deadlock occurs when two transactions wait indefinitely for each other to release locks."
+  },
+  {
+    "question": "What are MySQL aggregate functions?",
+    "answer": "Aggregate functions include SUM, AVG, COUNT, MIN, and MAX."
+  },
+  {
+    "question": "What is GROUP BY in MySQL?",
+    "answer": "GROUP BY groups rows with similar values for aggregation."
+  },
+  {
+    "question": "What is the difference between UNION and UNION ALL?",
+    "answer": "UNION removes duplicates, while UNION ALL retains them."
+  },
+  {
+    "question": "What is MySQL Cluster?",
+    "answer": "MySQL Cluster is a distributed database architecture for high availability and scalability."
+  },
+  {
+    "question": "What is MySQL JSON data type?",
+    "answer": "The JSON data type allows storing JSON-formatted data in a MySQL table."
+  },
+  {
+    "question": "What is the difference between synchronous and asynchronous replication?",
+    "answer": "Synchronous replication ensures data consistency, while asynchronous replication improves performance with potential delays."
+  },
+  {
+    "question": "What is the slow query log in MySQL?",
+    "answer": "The slow query log records queries that take longer than a specified threshold to execute."
+  },
+  {
+    "question": "How to optimize MySQL queries?",
+    "answer": "Optimization techniques include indexing, avoiding SELECT *, using JOINs efficiently, and analyzing query execution plans."
+  }
+]

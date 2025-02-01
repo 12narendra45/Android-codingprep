@@ -122,7 +122,7 @@ public class Homepage extends AppCompatActivity {
                     Toast.makeText(Homepage.this, "About clicked", Toast.LENGTH_SHORT).show();
                     return true;
                 } else if (itemId == R.id.op3) {
-                    Toast.makeText(Homepage.this, "Logout clicked", Toast.LENGTH_SHORT).show();
+                   openActivity(atest.class);
                     return true;
                 }
                 else if (itemId == R.id.op4) {

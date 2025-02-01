@@ -1,0 +1,178 @@
+[
+  {
+    "question": "What is Java?",
+    "answer": "Java is a high-level, object-oriented programming language known for its platform independence and security."
+  },
+  {
+    "question": "What are the main features of Java?",
+    "answer": "Java is platform-independent, object-oriented, secure, multi-threaded, robust, and has automatic memory management."
+  },
+  {
+    "question": "What is JVM?",
+    "answer": "JVM (Java Virtual Machine) is an engine that provides runtime environment to execute Java bytecode."
+  },
+  {
+    "question": "What is the difference between JDK, JRE, and JVM?",
+    "answer": "JDK includes development tools, JRE provides runtime for Java applications, and JVM executes Java bytecode."
+  },
+  {
+    "question": "What is the difference between '=='' and '.equals()' in Java?",
+    "answer": "'==' checks for reference equality, while '.equals()' checks for value equality."
+  },
+  {
+    "question": "What is the difference between primitive and wrapper classes?",
+    "answer": "Primitive types are basic data types, while wrapper classes provide object representation of primitives."
+  },
+  {
+    "question": "What is autoboxing and unboxing in Java?",
+    "answer": "Autoboxing converts primitives to wrapper classes automatically, while unboxing converts wrappers to primitives."
+  },
+  {
+    "question": "What is a class in Java?",
+    "answer": "A class is a blueprint for objects that defines fields and methods."
+  },
+  {
+    "question": "What is an object in Java?",
+    "answer": "An object is an instance of a class containing state (fields) and behavior (methods)."
+  },
+  {
+    "question": "What is the difference between method overloading and method overriding?",
+    "answer": "Overloading defines multiple methods with the same name but different parameters, while overriding redefines a method in a subclass."
+  },
+  {
+    "question": "What is inheritance in Java?",
+    "answer": "Inheritance allows one class to acquire properties and behaviors of another class using 'extends'."
+  },
+  {
+    "question": "What is polymorphism in Java?",
+    "answer": "Polymorphism allows methods to have multiple forms, achieved through method overloading and overriding."
+  },
+  {
+    "question": "What is abstraction in Java?",
+    "answer": "Abstraction hides implementation details and exposes only necessary functionalities using abstract classes or interfaces."
+  },
+  {
+    "question": "What is encapsulation in Java?",
+    "answer": "Encapsulation is restricting access to object details by using private fields and public methods."
+  },
+  {
+    "question": "What are access modifiers in Java?",
+    "answer": "Access modifiers define scope: public (accessible everywhere), private (within class), protected (within package and subclasses), and default (within package)."
+  },
+  {
+    "question": "What is an interface in Java?",
+    "answer": "An interface is a blueprint with abstract methods that must be implemented by classes."
+  },
+  {
+    "question": "What is an abstract class in Java?",
+    "answer": "An abstract class cannot be instantiated and can have abstract and non-abstract methods."
+  },
+  {
+    "question": "What is the difference between an interface and an abstract class?",
+    "answer": "An interface contains only abstract methods, while an abstract class can have both abstract and concrete methods."
+  },
+  {
+    "question": "What is static in Java?",
+    "answer": "'static' means a member belongs to the class rather than instances."
+  },
+  {
+    "question": "What is the final keyword in Java?",
+    "answer": "'final' is used to declare constants, prevent method overriding, and restrict inheritance."
+  },
+  {
+    "question": "What is the difference between 'finally', 'final', and 'finalize'?",
+    "answer": "'finally' handles cleanup, 'final' prevents modification, and 'finalize' is used by the garbage collector."
+  },
+  {
+    "question": "What is garbage collection in Java?",
+    "answer": "Garbage collection automatically frees memory by removing unreachable objects."
+  },
+  {
+    "question": "What are Java’s memory areas?",
+    "answer": "Heap, Stack, Method Area, and PC Register are key memory areas in Java."
+  },
+  {
+    "question": "What is the difference between HashMap and Hashtable?",
+    "answer": "HashMap is non-synchronized and allows null keys, while Hashtable is synchronized and does not allow null keys."
+  },
+  {
+    "question": "What is a ConcurrentHashMap?",
+    "answer": "ConcurrentHashMap is a thread-safe version of HashMap optimized for high concurrency."
+  },
+  {
+    "question": "What is a LinkedList in Java?",
+    "answer": "LinkedList is a doubly linked list implementation of List and Deque interfaces."
+  },
+  {
+    "question": "What is the difference between ArrayList and LinkedList?",
+    "answer": "ArrayList is faster for accessing elements, while LinkedList is better for insertions and deletions."
+  },
+  {
+    "question": "What is the difference between 'throw' and 'throws'?",
+    "answer": "'throw' is used to explicitly throw an exception, while 'throws' declares exceptions a method may throw."
+  },
+  {
+    "question": "What is a try-catch block?",
+    "answer": "A try-catch block handles exceptions, preventing program crashes."
+  },
+  {
+    "question": "What is a thread in Java?",
+    "answer": "A thread is the smallest unit of execution in a program."
+  },
+  {
+    "question": "What is multithreading in Java?",
+    "answer": "Multithreading allows concurrent execution of multiple threads to improve performance."
+  },
+  {
+    "question": "What is the difference between process and thread?",
+    "answer": "A process is an independent program instance, while a thread is a lightweight subprocess within a process."
+  },
+  {
+    "question": "What is synchronization in Java?",
+    "answer": "Synchronization ensures that only one thread accesses a resource at a time to prevent race conditions."
+  },
+  {
+    "question": "What is a volatile keyword in Java?",
+    "answer": "The 'volatile' keyword ensures visibility of changes to a variable across threads."
+  },
+  {
+    "question": "What is Executor Framework in Java?",
+    "answer": "Executor Framework provides a higher-level API for managing thread execution efficiently."
+  },
+  {
+    "question": "What is reflection in Java?",
+    "answer": "Reflection allows runtime inspection and modification of classes, methods, and fields."
+  },
+  {
+    "question": "What is serialization in Java?",
+    "answer": "Serialization converts an object into a byte stream to save or transmit it."
+  },
+  {
+    "question": "What is deserialization in Java?",
+    "answer": "Deserialization reconstructs an object from a byte stream."
+  },
+  {
+    "question": "What is JDBC in Java?",
+    "answer": "JDBC (Java Database Connectivity) is an API for interacting with relational databases."
+  },
+  {
+    "question": "What is the difference between Statement and PreparedStatement?",
+    "answer": "PreparedStatement is precompiled and more secure, while Statement is compiled each time it runs."
+  },
+  {
+    "question": "What is REST API in Java?",
+    "answer": "REST API allows communication between systems using HTTP methods like GET, POST, PUT, and DELETE."
+  },
+  {
+    "question": "What is Spring Framework in Java?",
+    "answer": "Spring is a Java framework for building enterprise applications using dependency injection and aspect-oriented programming."
+  },
+  {
+    "question": "What is Hibernate in Java?",
+    "answer": "Hibernate is an ORM framework for managing database operations using Java objects."
+  },
+  {
+    "question": "What is a microservice in Java?",
+    "answer": "A microservice is a small, independent service that communicates with others in a distributed system."
+  }
+]
