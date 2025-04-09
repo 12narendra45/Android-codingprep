@@ -14,7 +14,6 @@
 ### Login Screen
 <img src="screenshots/login.png" alt="Login" width="300"/>
 
-> 📌 *Make sure you add your actual screenshots in a `screenshots/` folder in your GitHub repository with the exact filenames.*
 
 ---
 
