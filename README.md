@@ -6,15 +6,15 @@
 ## 📸 Screenshots
 
 ### Sign Up Screen
-![Sign Up](https://github.com/your-username/your-repo-name/blob/main/screenshots/signup.png)
+<img src="screenshots/signup.png" alt="Sign Up" width="300"/>
 
 ### Dashboard with Learning Topics
-![Dashboard](https://github.com/your-username/your-repo-name/blob/main/screenshots/dashboard.png)
+<img src="screenshots/dashboard.png" alt="Dashboard" width="300"/>
 
 ### Login Screen
-![Login](https://github.com/your-username/your-repo-name/blob/main/screenshots/login.png)
+<img src="screenshots/login.png" alt="Login" width="300"/>
 
-> 📌 *Replace the image URLs above with your actual GitHub repo image paths after pushing them into a `screenshots/` folder in your repo.*
+> 📌 *Make sure you add your actual screenshots in a `screenshots/` folder in your GitHub repository with the exact filenames.*
 
 ---
 
@@ -96,4 +96,4 @@ This project is under the [MIT License](LICENSE).
 
 - Firebase for backend services  
 - Open-source resources for icons and design inspiration  
-- Android Developer community 
+- Android Developer community 💙
