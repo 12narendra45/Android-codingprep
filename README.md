@@ -5,24 +5,26 @@
 
 ## 📸 Screenshots
 
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
-  <div>
-    <img src="images/login.png" alt="Login" width="300"/>
-    <p><strong>Login Screen</strong></p>
-  </div>
-  <div>
-    <img src="images/signup.png" alt="Signup" width="300"/>
-    <p><strong>Sign up Screen</strong></p>
-  </div>
-  <div>
-    <img src="images/home.png" alt="Dashboard" width="300"/>
-    <p><strong>Dashboard with Learning Topics</strong></p>
-  </div>
-  <div>
-    <img src="images/extra.png" alt="Interview Questions" width="300"/>
-    <p><strong>Interview Questions Screen</strong></p>
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/login.png" alt="Login" width="200"/><br/>
+      <strong>Login Screen</strong>
+    </td>
+    <td align="center">
+      <img src="images/signup.png" alt="Signup" width="200"/><br/>
+      <strong>Sign up Screen</strong>
+    </td>
+    <td align="center">
+      <img src="images/home.png" alt="Dashboard" width="200"/><br/>
+      <strong>Dashboard</strong>
+    </td>
+    <td align="center">
+      <img src="images/extrs.png" alt="Interview" width="200"/><br/>
+      <strong>Interview Questions</strong>
+    </td>
+  </tr>
+</table>
 
 
 
