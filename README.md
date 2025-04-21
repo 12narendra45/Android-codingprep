@@ -5,17 +5,25 @@
 
 ## 📸 Screenshots
 
-### Login Screen
-<img src="images/login.png" alt="login" width="300"/>
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <div>
+    <img src="images/login.png" alt="Login" width="300"/>
+    <p><strong>Login Screen</strong></p>
+  </div>
+  <div>
+    <img src="images/signup.png" alt="Signup" width="300"/>
+    <p><strong>Sign up Screen</strong></p>
+  </div>
+  <div>
+    <img src="images/home.png" alt="Dashboard" width="300"/>
+    <p><strong>Dashboard with Learning Topics</strong></p>
+  </div>
+  <div>
+    <img src="images/extra.png" alt="Interview Questions" width="300"/>
+    <p><strong>Interview Questions Screen</strong></p>
+  </div>
+</div>
 
-### Sign up Screen
-<img src="images/signup.png" alt="signup" width="300"/>
-
-### Dashboard with Learning Topics
-<img src="images/home.png" alt="Dashboard" width="300"/>
-
-### Interview Questions Screen
-<img src="images/extrs.png" alt="Login" width="300"/>
 
 
 ---
