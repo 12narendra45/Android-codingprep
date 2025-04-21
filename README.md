@@ -20,7 +20,7 @@
       <strong>Dashboard</strong>
     </td>
     <td align="center">
-      <img src="images/extrs.png" alt="Interview" width="200"/><br/>
+      <img src="images/extra.png" alt="Interview" width="200"/><br/>
       <strong>Interview Questions</strong>
     </td>
   </tr>
