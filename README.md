@@ -5,14 +5,17 @@
 
 ## 📸 Screenshots
 
-### Sign Up Screen
-<img src="screenshots/signup.png" alt="Sign Up" width="300"/>
+### Login Screen
+<img src="images/login.png" alt="login" width="300"/>
+
+### Sign up Screen
+<img src="images/signup.png" alt="signup" width="300"/>
 
 ### Dashboard with Learning Topics
-<img src="screenshots/dashboard.png" alt="Dashboard" width="300"/>
+<img src="images/home.png" alt="Dashboard" width="300"/>
 
-### Login Screen
-<img src="screenshots/login.png" alt="Login" width="300"/>
+### Interview Questions Screen
+<img src="images/extrs.png" alt="Login" width="300"/>
 
 
 ---
